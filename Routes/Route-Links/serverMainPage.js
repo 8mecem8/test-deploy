@@ -7,9 +7,6 @@ const { serverMainPage } = require('../Controllers/mainPageController');
 
 
 
-// imported Middlewares-------------------------------------------------------------------------
-/* currenly no need for middleware */
-
 
 
 // Routes-------------------------------------------------------------------------

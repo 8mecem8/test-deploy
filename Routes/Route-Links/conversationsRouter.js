@@ -5,9 +5,6 @@ const {createUpdateConversation,GetAllUserConversations} = require('../Controlle
 
 
 
-// imported Middlewares-------------------------------------------------------------------------
-const { authCheck} = require('../Middlewares/EXAMPLE_authMWs')
-
 
 // Routes-------------------------------------------------------------------------
 conversationsRouter.get('/getAllUserConversations/:userID',GetAllUserConversations)

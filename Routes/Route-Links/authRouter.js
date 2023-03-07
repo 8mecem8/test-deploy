@@ -6,8 +6,6 @@ const { createUser,loginUser } = require('../Controllers/authController')
 
 
 
-// imported Middlewares-------------------------------------------------------------------------
-const { authCheck } = require('../Middlewares/EXAMPLE_authMWs')
 
 
 
