@@ -1,5 +1,5 @@
 {
-  "name": "NodejsExpressTemplate",
+  "name": "mod3",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,6 @@
     "express-session": "^1.17.3",
     "jsonwebtoken": "latest",
     "mongoose": "latest",
-    "mongoose-unique-validator": "latest",
     "morgan": "latest",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",

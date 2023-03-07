@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-const uniqueValidator = require('mongoose-unique-validator')
 
 
 const { ObjectId } = mongoose.Schema;
@@ -21,8 +20,6 @@ const ConversationSchema = new mongoose.Schema({
 },{timestamps: true});
 
 
-
-ConversationSchema.plugin(uniqueValidator)
 
 
 
